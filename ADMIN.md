@@ -1,6 +1,6 @@
 # 🖥️ 관리자 PC (Admin / Counter)
 
-> [← 메인 README로 돌아가기](../README.md)
+> [← 메인 README로 돌아가기](README.md)
 
 <br>
 
