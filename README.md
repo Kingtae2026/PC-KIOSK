@@ -26,7 +26,7 @@ PC방 운영에 필요한 모든 기능(좌석 관리, 시간 충전, 음식 주
 세 개의 클라이언트가 **관리자 PC 내장 TCP 서버**를 중심으로 연결됩니다.
 
 ```
-<img width="1036" height="590" alt="스크린샷 2026-04-20 181603" src="https://github.com/user-attachments/assets/f039501e-2bd6-42ad-9fdf-365593ff84f7" />
+<img width="1036" height="590" alt="스크린샷 2026-04-20 181603" src="https://github.com/user-attachments/assets/347226c1-8a43-475f-9af4-7aa953ed15b2" />
 
 ```
 
