@@ -38,7 +38,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 좌석 현황 (활성/비활성) |
 | :---: |
-| ![좌석현황](../스크린샷_20260420_181933.png) |
+| ![좌석현황](https://github.com/user-attachments/assets/6e60f093-fbe3-4203-87a2-af5c6e44974b)
 
 ---
 
@@ -49,7 +49,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 채팅 알림 (노란색 강조) 및 채팅 이력 |
 | :---: |
-| ![채팅](../스크린샷_20260420_182005.png) |
+| ![채팅](https://github.com/user-attachments/assets/de31fbd4-8d93-48d5-8702-9a3661e4e95e) |
 
 ---
 
@@ -63,7 +63,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 회원 목록 관리 |
 | :---: |
-| ![회원관리](../스크린샷_20260420_182046.png) |
+| ![회원관리](https://github.com/user-attachments/assets/7667a0ef-b9cd-4efc-9967-c8c451ec8317)|
 
 ---
 
@@ -76,7 +76,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 재고 관리 (Grid 직접 수정) |
 | :---: |
-| ![재고관리](../스크린샷_20260420_181711.png) |
+| ![재고관리](https://github.com/user-attachments/assets/a89cb893-4764-44ef-91ee-5a8507c289b5) |
 
 ---
 
@@ -89,7 +89,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 상품 목록 및 주문 관리 |
 | :---: |
-| ![주문관리](../스크린샷_20260420_182028.png) |
+| ![주문관리](https://github.com/user-attachments/assets/36cf2e10-d9b8-421c-b94b-9ba45b49fddb) |
 
 ---
 
@@ -102,7 +102,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 | 월별 매출 차트 |
 | :---: |
-| ![매출차트](../스크린샷_20260420_181735.png) |
+| ![매출차트](https://github.com/user-attachments/assets/6e5dd74e-c50d-4430-a468-bfe5d76e1d39) |
 
 <br>
 
