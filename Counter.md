@@ -88,7 +88,7 @@ SQLite `Member.db`를 기반으로 전체 회원 목록을 표시합니다.
 ## 5. 재고 조회
 
 SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
-알바 계정에서는 재고 현황 조회만 가능하며, 수정/저장은 관리자 계정에서만 가능합니다.
+아르바이트 계정에서는 재고 현황 조회만 가능하며, 수정/저장은 관리자 계정에서만 가능합니다.
 
 ![재고 조회](https://github.com/user-attachments/assets/6c44f7b0-9e68-4472-b584-b9789d4a903e)
 
@@ -98,7 +98,7 @@ SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
 
 # 관리자 화면 (Admin.cs)
 
-알바 화면의 운영 기능에 더해 매출 분석과 재고 수정 권한이 추가됩니다.
+아르바이트 화면의 운영 기능에 더해 매출 분석과 재고 수정 권한이 추가됩니다.
 
 <br>
 
@@ -129,25 +129,7 @@ SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
 
 `TcpServer.cs` — 3개의 포트를 비동기로 동시 수신합니다.
 
-```
-TcpServer
- ├── Port 9000  →  사용자 PC 전용
- │    ├── LOGIN|id|pw          →  LOGIN_OK|name|time|seat  /  LOGIN_FAIL|reason
- │    ├── LOGOUT|id|remain     →  LOGOUT_OK
- │    ├── TIME_REQ|id          →  TIME_RES|seconds
- │    ├── CHAT|id|message      →  CHAT_OK
- │    └── CHAT_POLL|id         →  CHAT_REPLY|msg  /  CHAT_EMPTY
- │
- ├── Port 9001  →  음식 주문 전용
- │    └── ORDER|id|items|total|seat  →  ORDER_OK|orderId
- │
- └── Port 9002  →  키오스크 전용
-      ├── LOGIN|id|pw          →  LOGIN_OK|name|remain  /  LOGIN_FAIL
-      ├── REGISTER|...         →  REGISTER_OK  /  REGISTER_FAIL|reason
-      └── CHARGE|id|seconds    →  CHARGE_OK|newRemain
-```
-
-<br>
+![TCP 서버 통신구조](https://github.com/user-attachments/assets/dcd705c0-5113-43c2-b965-21dd3c49f312)
 
 ---
 
@@ -165,7 +147,7 @@ TcpServer
 | birth | TEXT | 생년월일 |
 | phone | TEXT | 전화번호 |
 | seat_number | INTEGER | 현재 이용 좌석 (0 = 미이용) |
-| role | TEXT | 관리자 / 알바 / 일반 구분 |
+| role | TEXT | 관리자 / 아르바이트 / 일반 구분 |
 
 ### Food.db
 
