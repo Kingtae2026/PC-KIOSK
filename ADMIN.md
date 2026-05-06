@@ -51,7 +51,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 - 남은시간 0초 도달 시 → 자동 로그아웃 처리 및 DB 초기화
 - 좌석 클릭 시 → 해당 회원의 상세 정보(이름/아이디/남은시간 등) ListView 표시
 
-![좌석현황](https://github.com/user-attachments/assets/6e60f093-fbe3-4203-87a2-af5c6e44974b)
+![좌석현황](https://github.com/user-attachments/assets/88fef3b2-96fd-45bc-a71b-da610ec7fab7)
 
 ---
 
@@ -60,7 +60,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 사용자 PC에서 문의가 도착하면 해당 좌석 버튼이 노란색으로 바뀝니다.
 좌석을 클릭하면 해당 이용자와의 채팅 이력 및 입력창이 활성화됩니다.
 
-![채팅 알림 및 채팅 이력](https://github.com/user-attachments/assets/de31fbd4-8d93-48d5-8702-9a3661e4e95e)
+![채팅 알림 및 채팅 이력](https://github.com/user-attachments/assets/d5ed7c61-60db-47f4-bd59-5eec70da770d)
 
 ---
 
@@ -72,7 +72,7 @@ SQLite `Member.db`를 기반으로 전체 회원 목록을 표시합니다.
 - 회원 정보 조회 (이름/아이디/잔여시간/생년월일/전화번호/좌석번호)
 - 키오스크에서 신규 회원가입 완료 시 목록 자동 갱신
 
-![회원 목록 관리](https://github.com/user-attachments/assets/7667a0ef-b9cd-4efc-9967-c8c451ec8317)
+![회원 목록 관리](https://github.com/user-attachments/assets/1940591b-c909-491f-b0ba-9313efea598b)
 
 ---
 
@@ -83,7 +83,7 @@ SQLite `Member.db`를 기반으로 전체 회원 목록을 표시합니다.
 - 주문번호/좌석번호/주문내역/총액/날짜/시간 표시
 - 상품 목록 및 주문 내역 조회/삭제
 
-![상품 목록 및 주문 관리](https://github.com/user-attachments/assets/36cf2e10-d9b8-421c-b94b-9ba45b49fddb)
+![상품 목록 및 주문 관리](https://github.com/user-attachments/assets/417d0ab3-9bb0-4cc7-98eb-2b4c8a814de0)
 
 ---
 
@@ -92,7 +92,7 @@ SQLite `Member.db`를 기반으로 전체 회원 목록을 표시합니다.
 SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
 알바 계정에서는 재고 현황 조회만 가능하며, 수정/저장은 관리자 계정에서만 가능합니다.
 
-![재고 조회](https://github.com/user-attachments/assets/417d0ab3-9bb0-4cc7-98eb-2b4c8a814de0)
+![재고 조회](https://github.com/user-attachments/assets/de31fbd4-8d93-48d5-8702-9a3661e4e95e)
 
 <br>
 
@@ -109,7 +109,7 @@ SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
 `Food.db`의 상품 목록을 DataGridView로 표시하며, 셀을 직접 클릭해 수량을 수정할 수 있습니다.
 저장 버튼을 누르면 수정 내용이 DB에 반영됩니다.
 
-![재고 관리 수정](https://github.com/user-attachments/assets/a89cb893-4764-44ef-91ee-5a8507c289b5)
+![재고 관리 수정](https://github.com/user-attachments/assets/6e5dd74e-c50d-4430-a468-bfe5d76e1d39)
 
 ---
 
@@ -121,7 +121,7 @@ SQLite `Food.db`의 상품 목록을 DataGridView로 표시합니다.
 - 특정 일 선택 → 해당 일의 시간대별 매출 차트 표시
 - 합계 금액 표시
 
-![월별 매출 차트](https://github.com/user-attachments/assets/6e5dd74e-c50d-4430-a468-bfe5d76e1d39)
+![월별 매출 차트](https://github.com/user-attachments/assets/6e60f093-fbe3-4203-87a2-af5c6e44974b)
 
 <br>
 
