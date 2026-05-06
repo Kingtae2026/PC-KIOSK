@@ -16,11 +16,10 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 `CounterLogin.cs` — DB의 `role` 컬럼을 기준으로 계정을 구분하고 화면을 분기합니다.
 
-```
-로그인 (CounterLogin.cs)
- ├── role = "관리자"  →  Admin 화면     (매출 분석 + 재고 수정)
- └── role = "알바"    →  CounterAl 화면 (좌석 · 회원 · 주문 · 채팅 운영)
-```
+
+![카운터 PC 기능 구성도](https://github.com/user-attachments/assets/c83efb72-cacc-4164-8a21-b8202cc6b7d3)
+
+---
 
 | 기능 | 관리자 | 알바 |
 | :--- | :---: | :---: |
