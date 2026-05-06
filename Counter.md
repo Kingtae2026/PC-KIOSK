@@ -1,4 +1,4 @@
-# 관리자 PC (Admin / Counter)
+# 카운터 PC (관리자 / 아르바이트)
 
 > [← 메인 README로 돌아가기](README.md)
 
@@ -19,9 +19,8 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 ![카운터 PC 기능 구성도](https://github.com/user-attachments/assets/c83efb72-cacc-4164-8a21-b8202cc6b7d3)
 
----
 
-| 기능 | 관리자 | 알바 |
+| 기능 | 관리자 | 아르바이트 |
 | :--- | :---: | :---: |
 | 좌석 현황 실시간 모니터링 | | O |
 | 실시간 1:1 채팅 | | O |
@@ -35,7 +34,7 @@ SQLite DB와 직접 통신하고, 관리에 필요한 모든 UI를 하나의 화
 
 ---
 
-# 알바 화면 (CounterAl.cs)
+# 아르바이트 화면 (CounterAl.cs)
 
 운영에 필요한 실시간 기능 전반을 담당합니다.
 
